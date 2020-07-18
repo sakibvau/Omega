@@ -1,22 +1,12 @@
 // Initialize Firebase
 
-
-///Edit Under This
-
-var firebaseConfig = {
-  apiKey: "api-key",
-  authDomain: "project-id.firebaseapp.com",
-  databaseURL: "https://project-id.firebaseio.com",
-  projectId: "project-id",
-  storageBucket: "project-id.appspot.com",
-  messagingSenderId: "sender-id",
-  appId: "app-id",
-  measurementId: "G-measurement-id",
+const firebaseConfig = {
+  apiKey: "AIzaSyC-ab-ABoQwMe2L9jLjwSC9Tn8h_FjGlS0",
+  authDomain: "hacking-45f79.firebaseapp.com",
+  databaseURL: "https://hacking-45f79.firebaseio.com",
+  projectId: "hacking-45f79",
+  storageBucket: "hacking-45f79.appspot.com",
+  messagingSenderId: "358064882394",
+  appId: "1:358064882394:web:750046289e19aaad415be3",
+  measurementId: "G-MDD9WLF1RM"
 };
-
-     
- 
-////Do Not Edit Below This
-
-firebase.initializeApp(firebaseConfig);
-var database = firebase.database();
